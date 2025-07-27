@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JCEspina</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- Swiper JS -->
+  <link rel="icon" href="images/jc1.png" type="image/png" />
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <div id="particles-js"></div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg custom-navbar">
+    <div class="container">
+      <a class="navbar-brand " href="#">JC Espina <span class="text-primary">Portfolio</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav gap-4">
+          <li class="nav-item"><a class="nav-link scroll-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link scroll-link" href="#about">About me</a></li>
+          <li class="nav-item"><a class="nav-link scroll-link" href="#education-projects">Achievements</a></li>
+          <li class="nav-item"><a class="nav-link scroll-link" href="#contact">Experience</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-text">
+        <span class="role">Welcome!</span>
+        <h1 class="highlighted">Hello I'm <br><span class="highlighted-name">John Carlos Espina</span></h1>
+        <p>I craft clean and modern digital experiences and am proficient <br> in various programming tools and
+          technologies.
+        </p>
+        <a href="file:///C:/Users/jayc1/Downloads/John%20Carlos%20Espina%20CV%20Resume.pdf" class="download-btn">⬇
+          DOWNLOAD CV</a>
+
+        <!-- Social Icons -->
+        <div class="social-icons">
+          <a href="https://github.com/JayCzz" target="_blank"><img src="images/github.png" class="icon-img"
+              alt="GitHub" /></a>
+          <a href="https://www.linkedin.com/in/john-carlos-espina-888135286/" target="_blank"><img
+              src="images/linkedin.png" class="icon-img" alt="LinkedIn" /></a>
+          <a href="https://www.facebook.com/jaycccc.10" target="_blank"><img src="images/facebook.png" class="icon-img"
+              alt="Facebook" /></a>
+          <a href="https://www.messenger.com/e2ee/t/100015330435909" target="_blank" class="messenger-btn">
+            <img src="images/messenger.png" class="btn-icon" alt="Messenger" /> Message Me
+          </a>
+        </div>
+      </div>
+
+      <!-- ✅ Rotating Circle Image -->
+      <div class="rotating-border-wrapper">
+        <div class="rotating-border"></div>
+        <div class="profile-pic">
+          <img src="images/unnamed.jpg" alt="John Carlos" />
+        </div>
+      </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="layout-container">
+      <!-- LEFT: FULL-HEIGHT PICTURE -->
+      <div class="profile-container">
+        <img src="images/jc2.jpg" alt="Profile picture" class="about-pic" />
+      </div>
+
+      <!-- RIGHT: ABOUT + TOOLS -->
+      <div class="content-container">
+        <!-- ABOUT CARD -->
+        <div class="about-card">
+          <h2>About Me</h2>
+          <p>
+            I earned my Bachelor's degree in Information Technology from the Technological Institute of the Philippines
+            (TIP) – Quezon City, specializing in Front-End Development.
+            I'm passionate about creating engaging digital experiences that go beyond the expected, and I’m driven by
+            the opportunity to explore, innovate, and contribute to the evolving world of web development.
+          </p>
+        </div>
+
+        <!-- TOOLS TITLE -->
+        <h2 class="tools-heading">Tools Familiar</h2>
+
+        <!-- SLIDER CONTAINER -->
+        <div class="tools-slider-container">
+          <!-- TOP ROW (LEFT SCROLL) -->
+          <div class="swiper toolsSwiperLeft">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide tool-card">
+                <img src="images/html.png" class="tool-icon" alt="HTML" />
+                <div class="tool-label">HTML</div>
+              </div>
+              <div class="swiper-slide tool-card">
+                <img src="images/css.png" class="tool-icon" alt="CSS" />
+                <div class="tool-label">CSS</div>
+              </div>
+              <div class="swiper-slide tool-card">
+                <img src="images/javascript.png" class="tool-icon" alt="JavaScript" />
+                <div class="tool-label">JavaScript</div>
+              </div>
+              <div class="swiper-slide tool-card">
+                <img src="images/reactjs.png" class="tool-icon" alt="React" />
+                <div class="tool-label">React</div>
+              </div>
+              <div class="swiper-slide tool-card">
+                <img src="images/firebase.png" class="tool-icon" alt="Firebase" />
+                <div class="tool-label">Firebase</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- BOTTOM ROW (RIGHT SCROLL) -->
+          <div class="swiper toolsSwiperRight">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide tool-card">
+                <img src="images/git.png" class="tool-icon" alt="Git" />
+                <div class="tool-label">Git</div>
+              </div>
+              <div class="swiper-slide tool-card">
+                <img src="images/mysql.png" class="tool-icon" alt="MySQL" />
+                <div class="tool-label">MySQL</div>
+              </div>
+              <div class="swiper-slide tool-card">
+                <img src="images/bootstrap.png" class="tool-icon" alt="Bootstrap" />
+                <div class="tool-label">Bootstrap</div>
+              </div>
+              <div class="swiper-slide tool-card">
+                <img src="images/figma.png" class="tool-icon" alt="Figma" />
+                <div class="tool-label">Figma</div>
+              </div>
+              <div class="swiper-slide tool-card">
+                <img src="images/photoshop.png" class="tool-icon" alt="Photoshop" />
+                <div class="tool-label">Photoshop</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Combined Section for Education and Projects -->
+  <section id="education-projects" class="d-flex flex-wrap py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <!-- Subtitle centered across full row -->
+        <div class="col-12">
+          <span class="section-subtitle">Get To Know More</span>
+        </div>
+
+        <!-- Education (Left Half) -->
+        <div class="col-md-6">
+          <h2 class="section-title">Education</h2>
+          <div class="education-timeline">
+            <!-- Education Cards -->
+            <div class="education-card">
+              <img src="images/OIP.png" alt="TIP Logo" class="edu-logo" />
+              <div class="edu-content">
+                <h4>Technological Institute of the Philippines (TIP)</h4>
+                <p class="edu-location">📍 938 Aurora Boulevard, Cubao, Quezon City</p>
+                <p class="edu-program">🎓 Bachelor of Science in Information Technology</p>
+                <p class="edu-year">📅 2019 – 2025</p>
+                <p class="edu-note">🏅 Dean's Lister • 📱 Capstone: Mobile Health Tracker</p>
+              </div>
+            </div>
+
+            <div class="education-card">
+              <img src="images/OIP.png" alt="TIP Logo" class="edu-logo" />
+              <div class="edu-content">
+                <h4>Technological Institute of the Philippines (TIP)</h4>
+                <p class="edu-location">📍 938 Aurora Boulevard, Cubao, Quezon City</p>
+                <p class="edu-program">🎓 Senior High School – ICT Strand</p>
+                <p class="edu-year">📅 2017 – 2019</p>
+                <p class="edu-note">🎖️ Graduated with High Honors</p>
+              </div>
+            </div>
+
+            <div class="education-card">
+              <img src="images/R.jpg" alt="Sta Elena Logo" class="edu-logo" />
+              <div class="edu-content">
+                <h4>Sta. Elena High School - Marikina</h4>
+                <p class="edu-location">📍 W. C. Paz Street, Santa Elena, Marikina City</p>
+                <p class="edu-program">🎓 Junior High School</p>
+                <p class="edu-year">📅 2013 – 2016</p>
+                <p class="edu-note">🔬 Best in Science • 🤖 Robotics Club Member</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projects (Right Half) -->
+        <div class="col-md-6">
+          <h2 class="text-center section-title">Projects</h2>
+          <div class="project-slider-container">
+            <div class="project-slider">
+              <!-- Project Card 1 -->
+              <div class="card project-slide h-100 d-flex flex-column">
+                <img src="images/wq_web.png" class="card-img-top" alt="Project 1 Screenshot">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Whey Queen Website E-Commerce</h5>
+                  <p class="card-text">A web-based app to manage attendance with barcode scanning and MySQL database.
+                  </p>
+                  <div class="mt-auto">
+                    <button class="btn btn-outline-maroon">GitHub</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project Card 2 -->
+              <div class="card project-slide h-100 d-flex flex-column">
+                <img src="images/visvis.PNG" class="card-img-top" alt="Project 2 Screenshot">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Visvis Travel Reservation</h5>
+                  <p class="card-text">A Travel Booking Reservation for tourist.</p>
+                  <div class="mt-auto">
+                    <button class="btn btn-outline-maroon">GitHub</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project Card 3 -->
+              <div class="card project-slide h-100 d-flex flex-column">
+                <img src="images/winefine.jpg" class="card-img-top" alt="Project 3 Screenshot">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Fine Wine Mobile E-commerce</h5>
+                  <p class="card-text">A mobile e-commerce where you can bought fine wines.</p>
+                  <div class="mt-auto">
+                    <button class="btn btn-outline-maroon">GitHub</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Dot Navigation -->
+            <div class="year-slider text-center mt-3">
+              <span class="dot active" data-slide="0"></span>
+              <span class="dot" data-slide="1"></span>
+              <span class="dot" data-slide="2"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="experience-section py-5">
+    <div class="container">
+      <span class="section-subtitle">Where I've Worked</span>
+      <h2 class="section-title">Experience</h2>
+
+      <div class="timeline">
+        <!-- ALORICA -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h5 class="job-date">June 2024 – February 2025</h5>
+            <h4 class="job-title">ALORICA Cubao</h4>
+            <p class="job-role">Customer Service Representative (CSR – Voice)</p>
+            <p>Handled a financial account, providing real-time customer support via phone. Gained new knowledge and
+              opportunities.</p>
+            <ul class="job-responsibilities">
+              <li>Real-time customer support through phone calls</li>
+              <li>Confidentiality and security of customer info</li>
+              <li>Performance Quality & Average Handling Time</li>
+              <li>Excellent Service Delivery</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- VISVIS -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h5 class="job-date">February 2023 – June 2023</h5>
+            <h4 class="job-title">VISVIS Travel & Tours | OJT Program</h4>
+            <p class="job-role">Full Stack Developer</p>
+            <p>Built a booking website during 5-month OJT for tourist accommodations and flights.</p>
+            <ul class="job-responsibilities">
+              <li>Reservation system development</li>
+              <li>Meetings & Figma design tasks</li>
+              <li>XAMPP database integration</li>
+              <li>Frontend & backend encoding</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Remotask -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h5 class="job-date">January 2021 – March 2021</h5>
+            <h4 class="job-title">Remotask</h4>
+            <p class="job-role">Freelancer</p>
+            <p>Worked on AI and machine learning datasets. Focused on data annotation, labeling, and QA for self-driving
+              car tech.</p>
+            <ul class="job-responsibilities">
+              <li>Data Annotation & Labeling</li>
+              <li>Quality Assurance</li>
+              <li>Deadline-Driven Remote Work</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center">Contact Me</h2>
+      <form action="/submit-form" method="POST">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </div>
+  </section> -->
+  <!-- Back to Top Button -->
+
+  <footer class="text-center py-3">
+    <div class="container">
+      &copy; 2025 MyPortfolio. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="index.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+    const swiperLeft = new Swiper(".toolsSwiperLeft", {
+      loop: true,
+      loopedSlides: 10,
+      slidesPerView: "auto",
+      spaceBetween: 20,
+      speed: 4000,
+      grabCursor: true,
+      allowTouchMove: false,
+      autoplay: {
+        delay: 0,
+        disableOnInteraction: false,
+      },
+    });
+
+    const swiperRight = new Swiper(".toolsSwiperRight", {
+      loop: true,
+      loopedSlides: 10,
+      slidesPerView: "auto",
+      spaceBetween: 20,
+      speed: 4000,
+      grabCursor: true,
+      allowTouchMove: false,
+      autoplay: {
+        delay: 0,
+        disableOnInteraction: false,
+        reverseDirection: true,
+      },
+    });
+  </script>
+
+  <script>
+    const slider = document.querySelector('.project-slider');
+    const dots = document.querySelectorAll('.year-slider .dot');
+
+    dots.forEach((dot, index) => {
+      dot.addEventListener('click', () => {
+        slider.style.transform = `translateX(-${index * 100}%)`;
+        dots.forEach(d => d.classList.remove('active'));
+        dot.classList.add('active');
+      });
+    });
+  </script>
+  <button id="backToTop" title="Back to Top">
+    ↑
+  </button>
+  <script>
+    const backToTop = document.getElementById("backToTop");
+
+    window.onscroll = () => {
+      if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+        backToTop.style.display = "flex";
+      } else {
+        backToTop.style.display = "none";
+      }
+    };
+
+    backToTop.addEventListener("click", () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+  </script>
+
+  <!-- Particles.js Library -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <!-- Initialize Particles -->
+  <script>
+    particlesJS('particles-js', {
+      "particles": {
+        "number": { "value": 60 },
+        "color": { "value": "#800000" },
+        "shape": { "type": "circle" },
+        "opacity": { "value": 0.3 },
+        "size": { "value": 3 },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#800000",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 2,
+          "direction": "none",
+          "out_mode": "out"
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": { "enable": true, "mode": "grab" },
+          "onclick": { "enable": true, "mode": "push" },
+          "resize": true
+        },
+        "modes": {
+          "grab": { "distance": 200, "line_linked": { "opacity": 0.5 } },
+          "push": { "particles_nb": 4 }
+        }
+      },
+      "retina_detect": true
+    });
+  </script>
+</body>
+
+</html>
